@@ -54,6 +54,7 @@ ul{
     border-radius: 5px;
 }
 
+
 form{
     display: block;
 }
@@ -72,6 +73,55 @@ button.search-btn{
     padding: 7px;
     width: 90px;
 }
+
+
+#conteudo #hint{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#conteudo #hint h2{
+    text-align: center;
+}
+
+#conteudo #hint p{
+    text-align: justify;
+}
+
+#teste{
+    width: 1080px;
+    margin: 0 auto;
+    background: rgba(175, 8, 8, 0.295);
+    margin-bottom: 10px;
+    float: left;
+}
+
+.meals{
+    width: 700px;
+    margin: 0 auto;
+    float: left;
+}
+
+.meals .meal{
+    float: right;
+}
+.meals .meal img{
+    width: 300px;
+    margin-right: 30px;
+    padding: 10px;
+}
+.meal-info h3{
+    text-align: center
+}
+footer{
+    background: black;
+    color: white;
+    height: 150px;
+    text-align: center;
+    clear: both;
+}
+
+
 
 
 
