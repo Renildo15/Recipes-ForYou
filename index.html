@@ -9,23 +9,28 @@
   <body>
     <div id="container">
         <header>
-            <h1>Find your recipes</h1>
-            <form class="flex" id="submit">
-                <input type="text" id="search" placeholder="Search for meals or keywords">
-                <button class="search-btn" type="submit">
-                     Search
-                </button>
-            </form>
+            <div id="logo">
+                <h1>Find your recipes</h1>
+            </div>
+            <div class="pesquisa">
+                <form class="flex" id="submit">
+                    <input type="text" id="search" placeholder="Search for meals or keywords">
+                    <button class="search-btn" type="submit">
+                        Search
+                    </button>
+                </form>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a  class="active" href="">Home</a></li>
+                    <li><a href="">All meals</a></li>
+                    <li><a href="">Meal details</a></li>
+                    <li><a href="">Categories</a></li> 
+                </ul>
+            </nav>
+            
+            
         </header>
-
-        <nav>
-            <ul class="menu">
-                <li><a  class="active" href="">Home</a></li>
-                <li><a href="">All meals</a></li>
-                <li><a href="">Meal details</a></li>
-                <li><a href="">Categories</a></li> 
-            </ul>
-        </nav>
         <div id="conteudo">
             <div id="hint">
                 <h2>Hints</h2>
@@ -33,11 +38,10 @@
             </div>
             <div id="meals" class="meals"></div>
         </div>
-
+        <footer>
+            &copy; Habby Valle
+        </footer>
     </div>
-    <footer>
-        &copy; Habby Valle
-    </footer>
     <script src="script.js"></script>
   </body>
 </html>
