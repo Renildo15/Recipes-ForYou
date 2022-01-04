@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Recipes For You</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="container">
+        <header>
+            <h1>Find your recipes</h1>
+            <form class="flex" id="submit">
+                <input type="text" id="search" placeholder="Search for meals or keywords">
+                <button class="search-btn" type="submit">
+                     <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">All meals</a></li>
+                <li><a href="">Meal details</a></li>
+                <li><a href="">Categories</a></li> 
+            </ul>
+        </nav>
+        <div id="conteudo">
+            <div id="meals" class="meals"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
